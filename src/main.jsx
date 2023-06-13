@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 import Main from './Layout/Main';
 import Home from './Shared/Home/Home/Home';
-import Nevber from './Component/Nevber/Nevber';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +25,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='md:max-w-screen-lg justify-center items-center	mx-auto'>
+    <div className='md:max-w-screen-lg xl:max-w-screen-xl justify-center items-center	mx-auto'>
     <RouterProvider router={router} />
     </div>
   </React.StrictMode>,

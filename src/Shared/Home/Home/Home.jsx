@@ -5,6 +5,7 @@ import Footer from '../../Footer/Footer';
 import Travel from '../../../Component/Travel/Travel';
 import Travelimg from '../../../Component/Travel/Traveimg/Travelimg';
 import Advanturetravel from '../../../Component/Advanturetravel/Advanturetravel';
+import Nature from '../../../Component/Nature/Nature';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Travel></Travel>
             <Travelimg></Travelimg>
             <Advanturetravel></Advanturetravel>
+            <Nature></Nature>
             <Footer></Footer>
         </div>
     );
